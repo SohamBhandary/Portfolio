@@ -13,16 +13,24 @@ function Navigation() {
           About
         </a>
       </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#work">
-          Work
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#contact">
-          Contact
-        </a>
-      </li>
+     <li className="nav-li">
+  <a
+    className="nav-link"
+    href="https://www.linkedin.com/in/soham-bhandary-profile03"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn
+  </a>
+</li>
+     <a
+    className="nav-link"
+    href="https://github.com/SohamBhandary"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Github
+  </a>
     </ul>
   );
 }
@@ -36,7 +44,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Ali
+            Soham
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
