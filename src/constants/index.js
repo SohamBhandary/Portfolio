@@ -80,7 +80,7 @@ export const myProjects = [
 ,
   {
   id: 3,
-  title: "RAG-Based Medical Chatbot",
+  title: "CareGPT",
   description:
     "A full-stack AI-powered medical chatbot with Role-Based Access Control (RBAC), enabling secure, document-driven QnA for different user roles.",
   subDescription: [
@@ -93,7 +93,7 @@ export const myProjects = [
   ],
   href: "https://github.com/SohamBhandary/RAG-RBAC-MedicalAssistant",
   logo: "",
-  image: "/assets/projects/RAG.png",
+  image: "/assets/projects/Care.png",
   tags: [
     {
       id: 1,
