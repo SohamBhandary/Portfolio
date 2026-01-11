@@ -4,8 +4,8 @@ function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a className="nav-link" href="#home">
-          Home
+        <a className="nav-link" href="https://drive.google.com/file/d/1NXm_5iu7QyjjmyZFzMTmQ5RBLMVyrvqt/view">
+          Resume
         </a>
       </li>
       <li className="nav-li">
@@ -22,6 +22,8 @@ function Navigation() {
   >
     LinkedIn
   </a>
+  
+  
 </li>
      <a
     className="nav-link"
