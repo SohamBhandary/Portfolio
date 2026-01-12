@@ -111,7 +111,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-             Strong hands-on experience in developing secure, scalable backend systems using Java and Python, specializing in backend, Spring Boot, Spring Security, JWT authentication, and FastAPI. Skilled in Dockerization, API testing with postman, JUnit-based unit testing, with experience working on SQL databases and Generative AI.
+             Strong hands-on experience in developing secure, scalable backend systems using Java and Python, specializing in backend, Spring Boot, Spring Security, JWT authentication, and FastAPI. Skilled in Dockerization, API testing with postman, JUnit-based unit testing, with experience working on SQL databases and Generative AI and now aiming to become a java full stack developer.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
