@@ -20,7 +20,12 @@ export function Frameworks() {
     "dockeri",
     "postman",
     "vs",
-    "intelli"  
+    "intelli",
+    "AWS",
+    "cicd",
+    "GithubActions",
+    "k8",
+    "Terra"  
     
    
     
