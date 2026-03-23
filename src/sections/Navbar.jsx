@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a className="nav-link" href="">
+        <a className="nav-link" href="https://drive.google.com/file/d/1spKaL6OvMLRxsOixiO3GUbZT5UAuTVws/view?usp=sharing">
           Resume
         </a>
       </li>
