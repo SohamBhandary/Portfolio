@@ -1,43 +1,59 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+
 function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a className="nav-link" href="https://drive.google.com/file/d/15kzwvwB7eaEmbwW2b4tquszGdxCzjua9/view">
+        <a className="nav-link" href="">
           Resume
         </a>
       </li>
+
       <li className="nav-li">
         <a className="nav-link" href="#about">
           About
         </a>
       </li>
-     <li className="nav-li">
-  <a
-    className="nav-link"
-    href="https://www.linkedin.com/in/soham-bhandary-profile03"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    LinkedIn
-  </a>
-  
-  
-</li>
-     <a
-    className="nav-link"
-    href="https://github.com/SohamBhandary"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Github
-  </a>
+
+      <li className="nav-li">
+        <a
+          className="nav-link"
+          href="https://www.linkedin.com/in/soham-bhandary-profile03"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+
+      </li>
+
+      <li className="nav-li">
+        <a
+          className="nav-link"
+          href="https://takeuforward.org/profile/Soham_B003"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Coding Profile
+        </a>
+      </li>
+
+      <a
+        className="nav-link"
+        href="https://github.com/SohamBhandary"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Github
+      </a>
     </ul>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
       <div className="mx-auto c-space max-w-7xl">
@@ -48,6 +64,7 @@ const Navbar = () => {
           >
             Soham
           </a>
+
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
@@ -58,11 +75,13 @@ const Navbar = () => {
               alt="toggle"
             />
           </button>
+
           <nav className="hidden sm:flex">
             <Navigation />
           </nav>
         </div>
       </div>
+
       {isOpen && (
         <motion.div
           className="block overflow-hidden text-center sm:hidden"
